@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gdrive-rclone"
+version = "0.1.0"
+description = "Copy a list of files to Google Drive with rclone and verify each one by MD5"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "GPL-3.0-or-later" }
+
+[project.scripts]
+gdrive-rclone = "gdrive_rclone:main"
+
+[tool.setuptools]
+py-modules = ["gdrive_rclone"]
