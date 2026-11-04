@@ -9,6 +9,10 @@ description = "Copy a list of files to Google Drive with rclone and verify each 
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "Kanan Hooper" }]
+
+[project.urls]
+Author = "https://github.com/kananlanginhooper"
 
 [project.scripts]
 gdrive-rclone = "gdrive_rclone:main"

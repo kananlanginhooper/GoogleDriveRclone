@@ -97,4 +97,7 @@ They run the whole tool against a fake rclone that keeps "Drive" in a temp folde
 
 ## License
 
-GPL-3.0. See `LICENSE`.
+Copyright (c) 2026 Kanan Hooper. GPL-3.0. See `LICENSE`.
+
+---
+Built by [Kanan Hooper](https://github.com/kananlanginhooper)
